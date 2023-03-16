@@ -1,3 +1,44 @@
+
+/* トレンドを非表示にする */
 div[aria-label="タイムライン: トレンド"] {
+  display: none;
+}
+
+/* おすすめユーザーを非表示にする */
+aside[aria-label="おすすめユーザー"] {
+  display: none;
+}
+
+/* おすすめユーザーの背景を消す */
+div[class="css-1dbjc4n r-x572qd r-1d6w8o1 r-1867qdf r-1phboty r-rs99b7 r-1ifxtd0 r-1udh08x"] {
+  display: none;
+}
+
+/* トレンドの背景を消す */
+div[class="css-1dbjc4n r-x572qd r-1d6w8o1 r-1867qdf r-1phboty r-rs99b7 r-1ifxtd0 r-1udh08x"] {
+  display: none;
+}
+
+/* ＃話題を消すボタンを消す（トレンドが表示されるため） */
+div[aria-label="タイムライン: 話題を検索"] {
+  display: none;
+}
+
+/* 話題を検索全体を非表示に */
+div[aria-label="タイムライン: 話題を検索"] {
+  display: none;
+}
+
+a[aria-label="調べたいものを検索"] {
+  display: none;
+}
+
+/* フッター「利用規約、プライバシーポリシー、Cookieのポリシー、アクセシビリティ、広告情報、もっと見る、© 2023 Twitter, Inc.」の文字を消す */
+nav[aria-label="フッター"] {
+  display: none;
+}
+
+/* もっと見るのトピックとかを非表示にする */
+div[class="css-1dbjc4n r-1awozwy r-18u37iz"] {
   display: none;
 }
