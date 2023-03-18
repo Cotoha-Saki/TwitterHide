@@ -32,13 +32,3 @@ div[aria-label="タイムライン: 話題を検索"] {
 a[aria-label="調べたいものを検索"] {
   display: none;
 }
-
-/* フッター「利用規約、プライバシーポリシー、Cookieのポリシー、アクセシビリティ、広告情報、もっと見る、© 2023 Twitter, Inc.」の文字を消す */
-nav[aria-label="フッター"] {
-  display: none;
-}
-
-/* もっと見るのトピックとかを非表示にする */
-div[class="css-1dbjc4n r-1awozwy r-18u37iz"] {
-  display: none;
-}

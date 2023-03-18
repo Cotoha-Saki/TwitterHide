@@ -1,14 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Twitter Trend Hide",
-  "version": "1.0.0",
-  "description": "Twitterのトレンドを非表示にする拡張機能です",
+  "name": "Twitter Hide",
+  "version": "2.1.0",
+  "description": "Twitterの一部を非表示にする拡張機能です。 ",
   "content_scripts": [
     {
       "matches": ["https://twitter.com/*"],
-      "css": ["css/style.css"],
-      "javascript": ["js/main.js"],
-      "all_frames": true
+      "css": ["css/style.css"]
     }
-  ]
+  ],
+  "icons": {
+    "128": "icon/icon.png"
+  },
+
+  "author": "たなかぴよこ"
 }
